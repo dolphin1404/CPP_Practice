@@ -6,8 +6,7 @@ using namespace std;
 int main(){
   // 원의 넓이를 구하는 프로그램
   // 반지름 * 반지름 * 파이
-  const float p = 3.14;
-
+  const float p = 3.14; // 선언과 동시에 대입하는 초기화방식으로.
 
   int r = 3; 
   float s = r * r * p;
