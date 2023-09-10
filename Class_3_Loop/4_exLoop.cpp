@@ -23,8 +23,7 @@ int main(){
   4. bass class를 초기화할 때
   5. 생성자 파라미터의 이름이 데이터 멤버랑 같을 때(이 경우는 this를 써서 해결할 수도 있다.)
   */
-  for (int i : a){  // foo(int num) : bar(num) {}; 초기화 리스트
- 
+  for (int i : a) {  // foo(int num) : bar(num) {}; 초기화 리스트
     cout << i;
   }
 }
